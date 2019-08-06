@@ -1,0 +1,6 @@
+<h2>Employee List</h2>
+<!-- binded error message will be display using interpolation if there is an error -->
+<h3>{{errorMsg}}</h3>
+<ul *ngFor="let emp of employees">
+    <li>{{emp.name}}</li>
+</ul>
